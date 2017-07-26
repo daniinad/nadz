@@ -4,6 +4,6 @@
 	<title>Coba Halaman</title>
 </head>
 <body>
-		Ini Coba
+		<h4>Ini Coba</h4>
 </body>
 </html>

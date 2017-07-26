@@ -11,8 +11,28 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/keren', function () {
+    return view('coba');
+});
+
+Route::get('/testmodel', function () {
+    $query = App\Siswa::all();
+    return $query;
+});
+
+Route::get('/testmodel2', function () {
+    $query = App\Siswa::find(4);
+    return $query;
+});
+
+Route::get('/testmodel3', function () {
+    $query = App\Siswa::where('title','like','%cepat nikah%')->get();
+    return $query;
+});
+
+Route::get('/model', function () {
+    $query = App\Siswas::all();
+    return $query;
 });
 
 Auth::routes();
