@@ -23,7 +23,7 @@
 						<img alt="Carousel Bootstrap Second" src="cobas/arema.png">
 						<div class="carousel-caption">
 							<h4>
-								Arema
+								Arema FC
 							</h4>
 							<p>
 								Arema FC adalah sebuah klub sepak bola yang bermarkas di Malang, Jawa Timur, Indonesia. Arema didirikan pada tanggal 11 Agustus 1987, Arema mempunyai julukan "Singo Edan". Mereka bermain di Stadion Kanjuruhan dan Stadion 
@@ -34,7 +34,7 @@
 						<img alt="Carousel Bootstrap Third" src="cobas/per.png">
 						<div class="carousel-caption">
 							<h4>
-								Persebaya
+								Persebaya Surabaya
 							</h4>
 							<p>
 								Persebaya Surabaya adalah sebuah klub Sepak bola profesional di Indonesia yang berbasis di Surabaya yang berdiri pada 18 Juni 1927 dengan nama Soerabhaiasche Indonesische Voetbal Bond dan sudah malang melintang dikancah sepakbola 
