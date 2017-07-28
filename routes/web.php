@@ -35,6 +35,27 @@ Route::get('/model', function () {
     return $query;
 });
 
+Route::get('/about', function() {
+	return view('about');
+});
+
+Route::get('/coba', function() {
+	return view('layouts.mastah');
+});
+
+Route::get('/latihan1', function() {
+	return view('latihann');
+});
+
+Route::get('/latihan2', function() {
+	return view('latihannn');
+});
+
+Route::get('/latihan3', function() {
+	return view('latihannnn');
+});
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
