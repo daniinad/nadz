@@ -55,7 +55,8 @@ Route::get('/latihan3', function() {
 	return view('latihannnn');
 });
 
-
+Route::resource('author','AuthorController');
+Route::resource('book','BookController');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
