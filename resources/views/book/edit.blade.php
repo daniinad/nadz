@@ -10,7 +10,7 @@
 			</div>
 
 			<div class="panel-body">
-			<form action="{{route('book.update',$book->id)}}" method="POST">
+			<form action="{{route('book.update',$book->id)}}" method="POST" enctype="multipart/form-data">
 			<input type="hidden" name="_method" value="PUT">	
 			<input type="hidden" name="_token" value="{{csrf_token() }}">
 

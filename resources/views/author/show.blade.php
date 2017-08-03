@@ -20,10 +20,6 @@
 					</div>
 
 					<div class="form-group">
-						<label class="control-lable">Buku</label>
-						<input type="text" name="a" class="form-control" value="{{$author->book->title}}" readonly="">
-					</div>
-					<div class="form-group">
 						<button type="submit" class="btn btn-success">Simpan</button>
 						<button type="reset" class="btn btn-danger">Reset</button>
 					</div>

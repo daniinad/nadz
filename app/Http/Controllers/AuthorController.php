@@ -56,7 +56,8 @@ class AuthorController extends Controller
     {
         //
         $author = Author::findOrFail($id);
-        return view ('author.show',compact('author'));
+          $book = Book::all();
+        return view ('author.show',compact('author','book'));
     }
 
     /**
