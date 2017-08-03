@@ -19,10 +19,7 @@
 						<input type="text" name="a" class="form-control" value="{{$author->nama}}" readonly="">
 					</div>
 
-					<div class="form-group">
-						<button type="submit" class="btn btn-success">Simpan</button>
-						<button type="reset" class="btn btn-danger">Reset</button>
-					</div>
+					
 				</form>
 			</div>
 			</div>

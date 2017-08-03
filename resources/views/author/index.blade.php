@@ -25,7 +25,7 @@
 							<td>{{$data->nama}}</td>
 							<td>
 								@foreach($data->book as $a)
-								<li>{{$a->title}}</li>
+								{{$a->title}}
 								@endforeach
 							</td>
 							<td>

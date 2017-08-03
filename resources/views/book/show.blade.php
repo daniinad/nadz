@@ -33,10 +33,7 @@
 						<td><img src="{{asset('/img/'.$book->cover.'')}}" height="100px" width="100px"></td>
 					</div>
 
-					<div class="form-group">
-						<button type="submit" class="btn btn-success">Simpan</button>
-						<button type="reset" class="btn btn-danger">Reset</button>
-					</div>
+					
 				</form>
 			</div>
 			</div>
